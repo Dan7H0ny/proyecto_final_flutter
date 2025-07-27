@@ -40,6 +40,7 @@ La aplicación inicia con una pantalla de autenticación donde el usuario puede:
 - Ingresar email y contraseña
 - Ver mensajes de error o éxito
 - Acceder con indicador de carga
+
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
 
@@ -51,6 +52,7 @@ Una vez autenticado, el usuario accede a:
 - Botones para enviar y limpiar
 - Visualización de datos ingresados en tarjeta
 - Opción de cerrar sesión
+
 ![img.png](img.png)
 
 ### Diálogo de Confirmación
@@ -58,6 +60,7 @@ Al enviar el formulario válido:
 - AlertDialog muestra los datos ingresados
 - Confirmación de que la información fue procesada
 - Opción para cerrar el diálogo
+
 ![img_3.png](img_3.png)
 
 ## 🛠️ Uso de la Aplicación
@@ -68,6 +71,7 @@ Al enviar el formulario válido:
 3. **Ingresar email y contraseña** (mínimo 6 caracteres)
 4. **Presionar "Registrarse"**
 5. **Esperar confirmación** de registro exitoso
+
 ![img_4.png](img_4.png)
 
 ### Inicio de Sesión
@@ -118,68 +122,3 @@ if (age == null || age <= 0 || age > 120) return 'Error';
 // Validación de campos vacíos
 if (value == null || value.isEmpty) return 'Campo requerido';
 ```
-
-## 🚀 Instalación y Ejecución
-
-### Prerrequisitos
-- Flutter SDK instalado
-- Proyecto Firebase configurado
-- Android Studio / VS Code
-
-### Pasos para ejecutar
-1. **Clonar el repositorio**
-```bash
-git clone [URL_DEL_REPOSITORIO]
-cd mini-app-firebase
-```
-
-2. **Instalar dependencias**
-```bash
-flutter pub get
-```
-
-3. **Configurar Firebase**
-    - Crear proyecto en Firebase Console
-    - Habilitar Authentication
-    - Descargar `google-services.json` (Android)
-    - Descargar `GoogleService-Info.plist` (iOS)
-
-4. **Ejecutar la aplicación**
-```bash
-flutter run
-```
-
-## 🏗️ Arquitectura y Patrones
-
-### Estado con setState
-- Manejo explícito del estado local
-- Actualización de UI reactiva
-- Control de estados de carga
-
-### Separación de Responsabilidades
-- **AuthWrapper**: Lógica de autenticación
-- **LoginScreen**: UI y validación de login
-- **HomeScreen**: Formulario y validación de datos
-
-### Manejo de Errores
-- Try-catch para operaciones Firebase
-- Validación de formularios robusta
-- Mensajes de error contextuales
-
-## 📋 Cumplimiento de Requisitos
-
-✅ **Formulario con validación completa**
-✅ **Manejo de estado con setState**
-✅ **Autenticación Firebase funcional**
-✅ **Interfaz amigable y responsiva**
-✅ **AlertDialog para mostrar datos**
-✅ **Mensajes de bienvenida**
-✅ **Código bien estructurado**
-✅ **Documentación completa**
-
-## 👨‍💻 Desarrollado Por
-[Tu Nombre]
-Módulo de Desarrollo de Aplicaciones Móviles
-
----
-*Proyecto académico - Flutter + Firebase Authentication*
