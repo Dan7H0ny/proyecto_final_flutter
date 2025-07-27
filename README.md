@@ -1,4 +1,4 @@
-# Mini-App Flutter con Formulario Validado y Autenticación Firebase
+# Proyecto Final Flutter
 
 ## 📱 Descripción del Proyecto
 
@@ -40,6 +40,8 @@ La aplicación inicia con una pantalla de autenticación donde el usuario puede:
 - Ingresar email y contraseña
 - Ver mensajes de error o éxito
 - Acceder con indicador de carga
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
 
 ### Pantalla Principal (Formulario)
 Una vez autenticado, el usuario accede a:
@@ -49,12 +51,14 @@ Una vez autenticado, el usuario accede a:
 - Botones para enviar y limpiar
 - Visualización de datos ingresados en tarjeta
 - Opción de cerrar sesión
+![img.png](img.png)
 
 ### Diálogo de Confirmación
 Al enviar el formulario válido:
 - AlertDialog muestra los datos ingresados
 - Confirmación de que la información fue procesada
 - Opción para cerrar el diálogo
+![img_3.png](img_3.png)
 
 ## 🛠️ Uso de la Aplicación
 
@@ -64,6 +68,7 @@ Al enviar el formulario válido:
 3. **Ingresar email y contraseña** (mínimo 6 caracteres)
 4. **Presionar "Registrarse"**
 5. **Esperar confirmación** de registro exitoso
+![img_4.png](img_4.png)
 
 ### Inicio de Sesión
 1. **Ingresar credenciales** registradas
