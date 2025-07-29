@@ -63,7 +63,7 @@ Al enviar el formulario válido:
 
 ![img_3.png](img_3.png)
 
-## 🛠️ Uso de la Aplicación
+## 🛠Uso de la Aplicación
 
 ### Primer Uso (Registro)
 1. **Abrir la aplicación**
@@ -88,11 +88,7 @@ Al enviar el formulario válido:
 3. **Ver datos** en el diálogo de confirmación
 4. **Los datos se muestran** también en una tarjeta debajo del formulario
 
-### Funciones Adicionales
-- **Limpiar:** Vacía todos los campos del formulario
-- **Cerrar Sesión:** Regresa a la pantalla de login
-
-## 🔧 Configuración Técnica
+## Configuración Técnica
 
 ### Dependencias Principales
 ```yaml
@@ -102,13 +98,6 @@ dependencies:
   firebase_auth: ^4.15.3     # Autenticación
   cupertino_icons: ^1.0.2    # Iconos iOS
 ```
-
-### Estructura del Código
-- **`main.dart`**: Archivo principal con toda la lógica
-- **`MyApp`**: Widget raíz de la aplicación
-- **`AuthWrapper`**: Maneja el estado de autenticación
-- **`LoginScreen`**: Pantalla de login/registro
-- **`HomeScreen`**: Pantalla principal con formulario
 
 ### Validaciones Implementadas
 ```dart
