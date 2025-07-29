@@ -87,27 +87,3 @@ Al enviar el formulario válido:
 2. **Presionar "Enviar"** para validar
 3. **Ver datos** en el diálogo de confirmación
 4. **Los datos se muestran** también en una tarjeta debajo del formulario
-
-## Configuración Técnica
-
-### Dependencias Principales
-```yaml
-dependencies:
-  flutter: sdk: flutter
-  firebase_core: ^2.24.2     # Core de Firebase
-  firebase_auth: ^4.15.3     # Autenticación
-  cupertino_icons: ^1.0.2    # Iconos iOS
-```
-
-### Validaciones Implementadas
-```dart
-// Validación de email
-RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$').hasMatch(value)
-
-// Validación de edad
-final age = int.tryParse(value);
-if (age == null || age <= 0 || age > 120) return 'Error';
-
-// Validación de campos vacíos
-if (value == null || value.isEmpty) return 'Campo requerido';
-```
