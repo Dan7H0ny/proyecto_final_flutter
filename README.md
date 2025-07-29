@@ -62,28 +62,3 @@ Al enviar el formulario válido:
 - Opción para cerrar el diálogo
 
 ![img_3.png](img_3.png)
-
-## 🛠Uso de la Aplicación
-
-### Primer Uso (Registro)
-1. **Abrir la aplicación**
-2. **Seleccionar "Registrarse"**
-3. **Ingresar email y contraseña** (mínimo 6 caracteres)
-4. **Presionar "Registrarse"**
-5. **Esperar confirmación** de registro exitoso
-
-![img_4.png](img_4.png)
-
-### Inicio de Sesión
-1. **Ingresar credenciales** registradas
-2. **Presionar "Iniciar Sesión"**
-3. **Acceder automáticamente** al formulario
-
-### Llenar Formulario
-1. **Completar todos los campos:**
-    - Nombre completo
-    - Edad (número entero positivo)
-    - Email válido
-2. **Presionar "Enviar"** para validar
-3. **Ver datos** en el diálogo de confirmación
-4. **Los datos se muestran** también en una tarjeta debajo del formulario
