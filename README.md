@@ -1,38 +1,38 @@
 # Proyecto Final Flutter
 
-## 📱 Descripción del Proyecto
+## Descripción del Proyecto
 
 Esta es una aplicación móvil desarrollada en Flutter que incluye un formulario de ingreso de datos personales con validación completa y sistema de autenticación usando Firebase Authentication.
 
-## ✨ Características Principales
+## Características Principales
 
-### 🔐 Autenticación Firebase
+### Autenticación Firebase
 - **Registro de usuarios** con email y contraseña
 - **Inicio de sesión** seguro
 - **Validación de credenciales** con mensajes de error descriptivos
 - **Manejo de estados de autenticación** automático
 - **Cerrar sesión** funcional
 
-### 📋 Formulario Validado
+### Formulario Validado
 - **Campos requeridos:**
     - Nombre (obligatorio, no vacío)
     - Edad (obligatorio, número entero mayor que 0 y menor que 120)
     - Correo electrónico (formato válido con regex)
 
-### 🎯 Validaciones Implementadas
+### Validaciones Implementadas
 - Campos no vacíos
 - Formato de email válido
 - Edad numérica y dentro de rango realista
 - Contraseña mínima de 6 caracteres
 - Mensajes de error específicos y claros
 
-### 🔄 Manejo de Estado
+### Manejo de Estado
 - Uso explícito de `setState()` para actualizar la interfaz
 - Estados de carga durante autenticación
 - Actualización dinámica de datos mostrados
 - Limpieza de formularios
 
-## 🖼️ Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Pantalla de Login/Registro
 La aplicación inicia con una pantalla de autenticación donde el usuario puede:
